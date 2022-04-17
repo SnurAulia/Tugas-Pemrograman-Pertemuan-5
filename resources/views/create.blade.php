@@ -7,15 +7,15 @@
   @csrf
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Nama</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" name="nama" aria-describedby="emailHelp">
+    <input type="text" class="form-control" id="nama" name="nama" >
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Nomor Telpon</label>
-    <input type="text" class="form-control" name="no_tlp" id="exampleInputPassword1">
+    <input type="text" class="form-control" name="no_tlp" id="no_tlp">
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Alamat</label>
-    <input type="text" class="form-control" name="alamat" id="exampleInputPassword1">
+    <input type="text" class="form-control" name="alamat" id="alamat">
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
